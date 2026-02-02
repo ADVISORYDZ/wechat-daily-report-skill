@@ -27,7 +27,7 @@ playwright install chromium
 
 ### 1. 分析聊天记录
 
-使用 `analyze_chat.py` 对原始聊天记录 JSON 进行初步清洗和统计。
+使用 `analyze_chat.py` 对原始聊天记录 JSON 进行初步清洗和统计。推荐使用 [WeFlow](https://github.com/hicccc77/WeFlow) 项目导出的 **ChatLab** 格式数据。
 
 ```bash
 python scripts/analyze_chat.py <your_chat_log.json> --output-stats stats.json --output-text simplified_chat.txt
